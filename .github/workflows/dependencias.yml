@@ -2,7 +2,7 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - run: ....
+      - run: echo "Caso | abierto ${{ github.event.issue.number }}"
   build:
     needs: setup
     runs-on: ubuntu-latest
