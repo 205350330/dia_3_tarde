@@ -1,4 +1,3 @@
-name: Comentarios
 on: issue_comment
 jobs:
   issue_commented:
