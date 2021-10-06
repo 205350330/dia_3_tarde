@@ -1,5 +1,6 @@
+name: varios_casos
 jobs:
-  build:
+build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
