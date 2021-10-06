@@ -5,5 +5,5 @@ jobs:
     name: Issue comment
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
-    steps
+    steps:
       - run echo "Comment on issue ${{ github.event.issue.number }}"
